@@ -8,7 +8,7 @@ pipeline {
 	}
 	stage('junit') {
 	steps {
-		junit healthScaleFactor: 1.0, testResults: '**////*.xml'
+		junit healthScaleFactor: 1.0, testResults: '/var/lib/jenkins/workspace/PipelineCode/*.xml'
 		}
 	}
 }
