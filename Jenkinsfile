@@ -3,7 +3,7 @@ pipeline {
 		stages {
 	stage('scm') {
 	steps {
-		git "https://github.com/sandip/project.git
+		git "https://github.com/sandip/project.git"
 		}
 	}
 	stage('junit') {
