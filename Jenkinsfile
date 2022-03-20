@@ -1,5 +1,5 @@
 pipeline {
-    agent prod
+	agent {prod1}
     stages {
         stage('compile') {
 	   steps {
